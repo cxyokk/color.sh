@@ -6,7 +6,9 @@ if [[ $# > 0 ]]; then
 fi
 style=`echo $style | tr '[:lower:]' '[:upper:]'`
 
-. terminal-control.sh
+scriptPath=`readlink -f $0`
+scriptDir=`dirname $scriptPath`
+. $scriptDir/terminal-control.sh
 
 echo -e ${CYAN}Reading input...${REG}${REGF}${REGB}
 
