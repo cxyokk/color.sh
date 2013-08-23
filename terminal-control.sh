@@ -1,3 +1,4 @@
+# see https://gist.github.com/bcap/5682077#file-terminal-control-sh
 # Terminal output control (http://www.termsys.demon.co.uk/vtansi.htm)
 
 TC='\e['
