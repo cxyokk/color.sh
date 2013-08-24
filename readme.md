@@ -1,6 +1,6 @@
 # color.sh
 
-> Simple shell script to color stuff.
+> Simple shell script to color stuff: stdin in, colored stdout out.
 
 ## Usage
 Examples:
